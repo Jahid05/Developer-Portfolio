@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+/* Color Family */
+:root {
+    --gray-color: #757575;
+    ;
+    --dark-color: #181818;
+    --primary-color: #FD6E0A;
+    --light-color: #FFFFFF;
+    --bg-color: #FFF8F3;
+}
+
+.btn {
+    height: 64px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+    color: var(--light-color);
+    background-color: var(--primary-color);
+}
+
+.btn-outline {
+    height: 64px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background: transparent;
+    border-radius: 5px;
+    margin-left: 30px
+}
+
+.header {
+    background: var(--bg-color);
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* Navbar Menu Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px;
+}
+
+.nav-logo {
+    color: var(--dark-color);
+    font-size: 45px;
+    letter-spacing: 1.5px;
+}
+
+.text-color {
+    color: var(--primary-color);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+ul li {
+    margin-left: 40px;
+    font-size: 20px;
+    color: var(--dark-color);
+}
+
+/* Header Banner Style */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 50px 0 200px;
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: var(--dark-color);
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+    color: var(--dark-color);
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-size: 18px;
+    color: var(--gray-color);
+    margin-bottom: 30px;
+}
+
+/* Main Section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About Section Style */
+.about {
+    background: var(--bg-color);
+    margin-top: 130px;
+    padding: 130px 160px;
+    border-radius: 10px;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    color: var(--dark-color);
+    margin-bottom: 30px;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--gray-color);
+    margin-bottom: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--gray-color);
+}
+
+.info-data{
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--dark-color);
+}
