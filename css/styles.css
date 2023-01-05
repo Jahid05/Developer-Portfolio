@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
 
 * {
     font-family: 'Open Sans', sans-serif;
@@ -7,8 +7,7 @@
 
 /* Color Family */
 :root {
-    --gray-color: #757575;
-    ;
+    --gray-color: #727171;
     --dark-color: #181818;
     --primary-color: #FD6E0A;
     --light-color: #FFFFFF;
@@ -188,8 +187,72 @@ main {
     font-size: 16px;
     color: var(--gray-color);
 }
+
 /* Resume Section */
-.resume-container{
+.resume-container {
     display: flex;
     gap: 72px;
+    align-items: center;
+}
+
+.education-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.education-box {
+    margin-bottom: 30px;
+}
+
+.education h4 {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.education h5 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.education p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: var(--gray-color);
+}
+
+.work-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.work-box {
+    margin-bottom: 30px;
+}
+
+.work h4 {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.work h5 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.work p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: var(--gray-color);
+}
+.resume-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
